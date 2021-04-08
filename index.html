@@ -5,11 +5,15 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <style>
             body {
+                margin: 0;
+                height: 100vh;
+            }
+            .body-wrapper {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 background: #E5E5E5;
-                margin: 0;
+                height: 100%;
             }
             b {
                 display: block;
@@ -21,9 +25,11 @@
         </style>
     </head>
     <body>
-        <img src="marko.jpg" alt="Marko Bozic">
-        <b>Marko Bozic</b>
-        <p>I create affordable, result oriented, appealing websites and illustrations to make web a better place to surf and view.</p>
+        <div class="body-wrapper">
+            <img src="marko.jpg" alt="Marko Bozic">
+            <b>Marko Bozic</b>
+            <p>I create affordable, result oriented, appealing websites and illustrations to make web a better place to surf and view.</p>
+        </div>
     </body>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript"> let headID = document.getElementsByTagName("head")[0]; let newCss = document.createElement('link'); newCss.rel = 'stylesheet'; newCss.type = 'text/css'; newCss.href = "https://botmake.io/embed/bot503019.css"; let newScript = document.createElement('script'); newScript.src = "https://botmake.io/embed/bot503019.js"; newScript.type = 'text/javascript'; headID.appendChild(newScript); headID.appendChild(newCss); </script>
